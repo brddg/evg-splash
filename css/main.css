@@ -4,19 +4,62 @@
    Author's custom styles
    ========================================================================== */
 
+h1 {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
 
+p img {
+  width: 100%;
+}
 
+.navbar-brand {
+  text-indent: -9999px;
+  height: 30px;
+  width: 176px;
+  background: transparent url(../img/logo.jpg) no-repeat left top;
+  background-size: cover;
+  margin-top: 10px;
+}
 
+.jumbotron {
+  background: #3a99d9 url(../img/background.png) repeat right center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
 
+ul li {
+  font-size: 24px;
+  color: #3a99d9;
+}
 
+@media (max-width: 767px) {
+  ul li {
+    font-size: 21px;
+  }
+}
 
+.col-md-3 button {
+  display: block;
+  margin: 0 auto;
+}
 
+@media (max-width: 767px) {
+  .col-md-3 button {
+    width: 100%;
+  }
+}
 
+.modal label {
+  display: block;
+}
 
+.modal input {
+  margin-bottom: 10px;
+}
 
-
-
-
-
-
-
+#download_button {
+  display: none;
+}
